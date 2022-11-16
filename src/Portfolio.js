@@ -6,7 +6,7 @@ export default function Portfolio(props) {
       <div className="portfolio" id="portfolio">
         <div className="container portfolio-item">
           <div className={props.textClass}>
-            <h1>{title}</h1>
+            <p><strong>{title}</strong></p>
             <p>{description}</p>
             <br />
             <a className="portfolio-link" href={href} target="_blank" rel="noreferrer">View Project</a>
