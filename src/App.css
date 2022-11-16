@@ -37,7 +37,11 @@ body {
   padding: 3vh 10vh 0 10vh;
   font-size: 2vw;
 }
-
+.link {
+    font-size: 1.75vw;
+    color: var(--blue-1);
+    text-decoration: none;
+}
 
 /* Dark Mode */
 .dark {
@@ -170,11 +174,6 @@ body {
   width: 65%;
   order: 2;
 }
-.portfolio-link {
-  font-size: 1.75vw;
-  color: var(--blue-1);
-  text-decoration: none;
-}
 .portfolio-link:hover {
   color: var(--purple-1);
 }
@@ -212,11 +211,6 @@ body {
   width: 70%;
   vertical-align: middle;
   border-radius: 10%;
-}
-.crypto-img a{
-  font-size: 1.75vw;
-  text-decoration: none;
-  color: var(--blue-1);
 }
 .crypto-img a:hover{
   color: var(--purple-1)
@@ -337,6 +331,9 @@ border-radius: 30px;
   .container-title {
     padding: 2vh 3vh 0 3vh;
   }
+  .link {
+    font-size: 2vw;
+  }
   .dark-mode{
     padding-top: 5px;
     padding-right: 5px;
@@ -370,6 +367,7 @@ border-radius: 30px;
   }
   .contact-form{
     margin-left: 0;
+    margin-top: 1vh;
     gap: 1vh;
   }
   .contact-form-item {

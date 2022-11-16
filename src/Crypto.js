@@ -21,7 +21,7 @@ export default function Crypto() {
             src="https://res.cloudinary.com/dctoezvq5/image/upload/v1668276832/portfolio/portfolio-image_b2lvt3.png"
           ></img>
           <br />
-          <a href="https://opensea.io/RiceFarmerVault" target="_blank" rel="noreferrer">NFT Collection</a>
+          <a className="link" href="https://opensea.io/RiceFarmerVault" target="_blank" rel="noreferrer">NFT Collection</a>
         </div>
       </div>
     </>

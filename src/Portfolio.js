@@ -9,7 +9,7 @@ export default function Portfolio(props) {
             <p><strong>{title}</strong></p>
             <p>{description}</p>
             <br />
-            <a className="portfolio-link" href={href} target="_blank" rel="noreferrer">View Project</a>
+            <a className="link" href={href} target="_blank" rel="noreferrer">View Project</a>
           </div>
           <div className={props.imageClass}>
             <img
