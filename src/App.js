@@ -1,24 +1,44 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Navbar from "./Navbar.js";
+import Home from "./Home";
+import AboutMe from "./AboutMe";
+import Portfolio from "./Portfolio";
+import { data } from "./data.js";
+import Crypto from "./Crypto";
+import Skills from "./Skills";
+import Contact from "./Contact";
+import Footer from "./Footer";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Navbar />
+      <Home />
+      <AboutMe />
+      <div className="container-title">
+        <h1>Portfolio</h1>
+      </div>
+      {data.map((project) => {
+        return (
+          <Portfolio
+            textClass={
+              project.id % 2 === 0
+                ? "portfolio-item-text1"
+                : "portfolio-item-text"
+            }
+            imageClass={
+              project.id % 2 === 0 ? "portfolio-img1" : "portfolio-img"
+            }
+            key={project.id}
+            data={project}
+          />
+        );
+      })}
+      <Crypto />
+      <Skills />
+      <Contact />
+      <Footer />
+    </>
   );
 }
 

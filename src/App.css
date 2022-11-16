@@ -1,38 +1,377 @@
-.App {
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  background-color: var(--white-1);
+}
+
+:root {
+  /* White */
+  --white-0: #FFFFFF;
+  --white-1: #FFFAFA;
+  --white-2: #F0FFFF;
+  /* Black */
+  --black-1: #000000;
+  /* Blue */
+  --blue-1: #4169E1;
+  /* Gray */
+  --gray-1: #222;
+  --gray-2: #5f5f5f;
+  --gray-3: #c8c8c8;
+  /* Purple */
+  --purple-1: #8b0992;
+
+}
+
+.container {
+  display: flex;
+  padding: 5vh 10vh;
+}
+.container-title {
+  padding: 3vh 10vh 0 10vh;
+  font-size: 2vw;
+}
+
+
+/* Dark Mode */
+.dark {
+  color: #FFFAFA;
+  --white-0: #000000;
+  --white-1: #222;
+  --black-1: #FFFAFA;
+  --gray-2: #c8c8c8;
+  --blue-1: #00BFFF;
+  --purple-1: #FF00FF;
+}
+
+.dark-mode {
+  position: fixed;
+  right: 0;
+  padding-top: 10px;
+  padding-right: 10px;
+}
+.dark-mode svg {
+  fill: var(--black-1)
+}
+.dark-mode button {
+  border: none;
+  color: var(--black-1);
+  background: none;
+  cursor: pointer;
+}
+.dark-mode-icon{
+  width: 2.5vw;
+  height: 2.5vw;
+  fill: var(--black-1);
+  cursor: pointer;
+}
+/* Navbar */
+.navbar {
+  padding: 2vh 5vh;
+  align-items: center;
+  background-color: var(--white-0);
+  box-shadow: 0px 3px 10px var(--black-1);
+}
+.nav-title {
+  font-size: 1.3vw;
   text-align: center;
+  padding-left: 2vh;
+}
+.nav-menu {
+  padding: 0 6vh;
+}
+.nav-menu ul {
+  font-size: 2vw;
+  font-weight: 600;
+  list-style: none;
+  display: flex;
+  gap: 4vh;
+  flex-wrap: wrap;
+}
+.nav-menu-link {
+  text-decoration: none;
+  cursor: pointer;
+}
+.nav-menu-link:hover {
+  color: var(--gray-2);
+}
+.nav-logo-item {
+  border-radius: 10%;
+  width: 10vw;
+}
+.nav-icons{
+  display: flex;
+  justify-content: flex-end;
+  flex-grow: 1;
+  gap: 15px;
+}
+.nav-icons svg{
+  width: 2.5vw;
+  height: 2.5vw;
+  fill: var(--black-1);
+  cursor: pointer;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Home */
+.home-img-item {
+  border-radius: 10%;
+  width: 28vw;
+  /* box-shadow: -10px 10px 5px var(--black-1); */
+}
+.home-text {
+  padding-left: 10vw;
+  align-self: center;
+}
+.home-text span {
+  font-size: 10vw;
+}
+.home-text p {
+  font-size: 4.15vw;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* About me */
+.about-me {
+  justify-content: space-between;
+  font-size: 2.6vw;
+}
+.about-me-text {
+  width: 45%;
+}
+.about-me-text1 {
+  width: 45%;
+}
+.about-me-link {
+  color: var(--blue-1);
+  cursor: pointer;
+}
+.about-me-link:hover {
+  color: var(--purple-1);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Portfolio */
+.portfolio {
+  justify-content: space-between;
+}
+.portfolio-item{
+  align-items: center;
+}
+.portfolio-item-text {
+  width: 65%;
+  font-size: 2vw;
+  order: 1;
+}
+.portfolio-item-text1 {
+  width: 65%;
+  font-size: 2vw;
+  order: 2;
+}
+.portfolio-item-text h1 {
+  font-size: 2.6vw;
+}
+.portfolio-item-text1 h1 {
+  font-size: 2.6vw;
+}
+.portfolio-link {
+  font-size: 1.75vw;
+  color: var(--blue-1);
+  text-decoration: none;
+}
+.portfolio-link:hover {
+  color: var(--purple-1);
+}
+.portfolio-img {
+  width: 35%;
+  order: 2;
+  padding-left: 3vh;
+}
+.portfolio-img1 {
+  width: 35%;
+  order: 1;
+  padding-right: 3vh;
+}
+.portfolio-img-item {
+  border-radius: 50%;
+  max-width: 100%;
+  max-height: 100%;
+}
+/* Crypto */
+.crypto {
+  justify-content: space-between;
+  align-items: center;
+  font-size: 2.6vw;
+}
+.crypto-text {
+  width: 45%
+}
+.crypto-img {
+  width: 45%;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+.crypto-img-item {
+  width: 70%;
+  vertical-align: middle;
+  border-radius: 10%;
+}
+.crypto-img a{
+  font-size: 1.75vw;
+  text-decoration: none;
+  color: var(--blue-1);
+}
+.crypto-img a:hover{
+  color: var(--purple-1)
+}
+/* Skills */
+.skills {
+  font-size: 1.75vw;
+}
+.skills ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  align-items: center;
+  gap: 2vw;
+  flex-wrap: wrap;
+}
+.skills ul li {
+  width: 20vw;
+  padding: 2vh 0;
+  text-align: center;
+  border: var(--black-1) 2px solid;
+  border-radius: 30px;
+  box-shadow: -5px 5px var(--black-1);
+}
+.skills ul li:hover {
+  color: var(--blue-1);
+  border: var(--blue-1) 2px solid;
+  box-shadow: -5px 5px var(--blue-1);
+}
+/* Contact */
+.contact {
+  justify-content: flex-start;
+}
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 3vh;
+  margin-left: 15px;
+  flex-grow: 1;
+}
+.contact-form-item {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+font-size: 1.8vw;
+background-color: var(--white-0);
+color: var(--black-1);
+padding: 2vh;
+margin: 0 1vh 2vh 1vh;
+border: solid 2px var(--black-1);
+border-radius: 30px;
+}
+.contact-form textarea {
+  resize: vertical;
+}
+.contact-form button {
+  background-color: var(--gray-3);
+  cursor: pointer;
+  font-size: 1.5vw;
+  padding: 1vh;
+  width: 20%;
+  border: none;
+  border-radius: 30px;
+  margin-left: 2vh;
+}
+
+.sidebar-item {
+  display: flex;
+  padding-bottom: 3vh;
+}
+.sidebar-img {
+  padding-right: 4vh;
+  padding-top: .5vw;
+}
+.sidebar-text p{
+  font-size: 1.5vw;
+}
+.sidebar-text h2{
+  font-size: 3vw;
+  padding-bottom: 1.5vh;
+}
+/* Footer */
+.footer{
+  padding: 2vh 5vh;
+
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-size: 1.25vw;
+  align-items: center;
+}
+.footer-blank{
+  width: 33%;
+}
+.footer-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 33%;
+}
+.footer-icons{
+  display: flex;
+  justify-content: flex-end;
+  width: 33%;
+  gap: 15px;
+}
+.footer-icons svg{
+  width: 2.5vw;
+  height: 2.5vw;
+  fill: var(--black-1);
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media (max-width: 480px) {
+  .container {
+    padding: 2vh 3vh;
   }
-  to {
-    transform: rotate(360deg);
+  .container-title {
+    padding: 2vh 3vh 0 3vh;
+  }
+  .dark-mode{
+    padding-top: 5px;
+    padding-right: 5px;
+  }
+  .navbar {
+    margin-bottom: 2vh;
+  }
+  .nav-menu {
+    display: none;
+  }
+  .skills ul li {
+    padding: 1vh;
+    border: var(--black-1) 1px solid;
+    box-shadow: -2px 2px var(--black-1);
+  }
+  .contact{
+    flex-direction: column;
+  }
+  .contact-form{
+    margin-left: 0;
+    gap: 1vh;
+  }
+  .contact-form-item {
+    border: solid 1px var(--black-1);
+    margin: 0 1vh 1vh 1vh;
+  }
+  .contact-form button {
+    margin-left: 1vh;
+  }
+  .sidebar-item {
+    padding-bottom: 1vh;
   }
 }
