@@ -13,7 +13,7 @@ export const data = [
     id: 2,
     title: "Targaryen Family Tree",
     description:
-      "An interactive family tree featuring the Targaryen family from the reign of Aegon the Conqueror to the Dance of the Dragons. Built using React, Javascript, Balkan FamilyTreeJS, HTML, and CSS.",
+      "An interactive family tree featuring the Targaryen family from the reign of Aegon the Conqueror to the Dance of the Dragons. Built using React, Javascript, Balkan FamilyTreeJS, HTML, and CSS. Web only.",
     image:
       "https://res.cloudinary.com/dctoezvq5/image/upload/c_scale,h_300,w_400/v1668222430/portfolio/targaryenfamily_cwvfle.jpg",
     alt: "Targaryen Family",
