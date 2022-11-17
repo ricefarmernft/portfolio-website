@@ -79,14 +79,16 @@ export default function Contact() {
             </div>
             <div className="sidebar-text">
               <h2>Github</h2>
-              <a
-                className="link"
-                href="https://github.com/ricefarmernft"
-                target="_blank"
-                rel="noreferrer"
-              >
-                @ricefarmernft
-              </a>
+              <p>
+                <a
+                  className="link"
+                  href="https://github.com/ricefarmernft"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  @ricefarmernft
+                </a>
+              </p>
             </div>
           </div>
         </div>
