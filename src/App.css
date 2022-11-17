@@ -95,7 +95,7 @@ body {
   padding-left: 2vh;
 }
 .nav-menu {
-  padding: 0 6vh;
+  padding: 0 30px;
   flex-grow: 2;
 }
 .nav-menu ul {
@@ -103,7 +103,7 @@ body {
   font-weight: 600;
   list-style: none;
   display: flex;
-  gap: 4vh;
+  gap: 20px;
   flex-wrap: wrap;
 }
 .nav-menu-link {
@@ -434,7 +434,7 @@ outline: none;
     padding: 2vh 4vh 0 4vh;
   }
 }
-@media (max-width: 600px) {
+@media (max-width: 670px) {
   .nav-menu {
     display: none;
   }
