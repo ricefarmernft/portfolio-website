@@ -10,10 +10,9 @@ export default function AboutMe() {
         <div className="about-me-text">
           <p>
             Ceejay Xiong studied Accounting at The Ohio State University. After
-            working as a financial analyst for a top 10 national bank and a
+            working as a financial analyst for a national bank and a
             crypto startup, Ceejay became interested in Web Development. He left
-            his job and is currently pursuing programming full-time with an
-            emphasis on Javascript and React.
+            his job and is currently pursuing front-end programming full-time.
           </p>
         </div>
         <div className="about-me-text1">

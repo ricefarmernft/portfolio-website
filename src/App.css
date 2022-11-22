@@ -435,7 +435,7 @@ outline: none;
   width: 250px;
 }
 .portfolio-link {
-  padding: 0 10rem 3rem 10rem;
+  padding: 0 8rem 3rem 8rem;
 }
 .portfolio:nth-child(even) .portfolio-link {
   justify-content: flex-start;
