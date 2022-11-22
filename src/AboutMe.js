@@ -21,7 +21,6 @@ export default function AboutMe() {
             Ceejay is deeply interested in Web 3 and crypto. Outside of work, he
             enjoys reading, watching movies, and staying active.
           </p>
-          <br/>
           <p>
             Check out his <Link
                 className="about-me-link"
