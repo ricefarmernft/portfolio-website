@@ -22,6 +22,8 @@ export default function Contact() {
           alert("Email not sent. Please try again.");
         }
       );
+      document.getElementById('contact-form').reset();
+
   };
 
   return (
@@ -92,7 +94,7 @@ export default function Contact() {
             </div>
           </div>
         </div>
-        <form className="contact-form" ref={form} onSubmit={sendEmail}>
+        <form className="contact-form" id="contact-form" ref={form} onSubmit={sendEmail}>
           <input
             type="hidden"
             name="number"
