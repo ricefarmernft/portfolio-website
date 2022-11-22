@@ -8,7 +8,7 @@ export default function Crypto() {
         <div className="crypto-text">
           <p>
             Ceejay is an avid crypto and Web 3 supporter and is heavily involved
-            in the industry. He has experience with DeFi protocols, smart
+            in the industry. He has experience with blockchain, DeFi, smart
             contracts, and NFTs. On{" "}
             <a
               className="crypto-link"
@@ -18,9 +18,7 @@ export default function Crypto() {
             >
               Twitter
             </a>
-            , he is a content creator and has amassed over 20k+ followers. He is
-            also apart of numerous NFT communities and enjoys marketing and
-            community building.
+            , he is a content creator and has amassed over 20k+ followers.
           </p>
         </div>
         <div className="crypto-img">
