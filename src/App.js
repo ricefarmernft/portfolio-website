@@ -21,14 +21,6 @@ function App() {
       {data.map((project) => {
         return (
           <Portfolio
-            textClass={
-              project.id % 2 === 0
-                ? "portfolio-item-text1"
-                : "portfolio-item-text"
-            }
-            imageClass={
-              project.id % 2 === 0 ? "portfolio-img1" : "portfolio-img"
-            }
             key={project.id}
             data={project}
           />
