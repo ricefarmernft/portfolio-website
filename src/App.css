@@ -450,6 +450,9 @@ outline: none;
   width: 100%;
 }
 /* Skills */
+.skills {
+  padding: 1rem 1rem;
+}
 .skills ul li {
     padding: 1rem 0;
     border: var(--black-1) 1px solid;
@@ -482,12 +485,16 @@ outline: none;
   /* Footer */
   .footer {
     padding: 1rem 1rem;
+    justify-content: space-between;
   }
   .footer-icons {
     gap: 10px;
   }
   .footer-icons svg {
     width: 2.4rem;
+  }
+  .footer-blank {
+    display: none;
   }
 }
 
@@ -499,6 +506,7 @@ outline: none;
   }
   /* Navbar */
   .navbar {
+    padding: 2rem 3rem;
     justify-content: space-between;
   }
   .nav-menu {
@@ -514,6 +522,6 @@ outline: none;
     margin-top: 3rem;
   }
   .home-img-item {
-    width: 42rem;
+    width: 40rem;
   }
 }
