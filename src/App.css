@@ -129,6 +129,7 @@ body {
 }
 .nav-menu-link:hover {
   color: var(--gray-2);
+  font-weight: 600;
 }
 .nav-icons{
   display: flex;
@@ -149,6 +150,8 @@ body {
 /* Home */
 .home {
   gap: 10rem;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
 }
 .home-img-item {
   border-radius: 10%;
@@ -382,7 +385,7 @@ outline: none;
     font-size: 31.25%;
   }
   .container {
-    padding: 3rem 4rem;
+    padding: 3rem 2rem;
   }
   .container-title {
     padding: 1.8rem 3rem 0 3rem;
@@ -434,7 +437,7 @@ outline: none;
   width: 250px;
 }
 .portfolio-link {
-  padding: 0 8rem 3rem 8rem;
+  padding: 0 2rem 3rem 2rem;
 }
 .portfolio:nth-child(even) .portfolio-link {
   justify-content: flex-start;
@@ -450,7 +453,7 @@ outline: none;
 }
 /* Skills */
 .skills {
-  padding: 3rem 1rem 1rem 1rem;
+  padding: 3rem 1rem 3rem 1rem;
 }
 .skills ul li {
     padding: 1rem 0;
