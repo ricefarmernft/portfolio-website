@@ -382,7 +382,7 @@ outline: none;
     font-size: 31.25%;
   }
   .container {
-    padding: 3rem 5rem;
+    padding: 3rem 4rem;
   }
   .container-title {
     padding: 1.8rem 3rem 0 3rem;
@@ -420,7 +420,6 @@ outline: none;
 }
 .portfolio-item {
   flex-direction: column;
-  padding: 3rem 8rem;
 }
 .portfolio-item-text {
   width: 100%;
@@ -451,7 +450,7 @@ outline: none;
 }
 /* Skills */
 .skills {
-  padding: 1rem 1rem;
+  padding: 3rem 1rem 1rem 1rem;
 }
 .skills ul li {
     padding: 1rem 0;
