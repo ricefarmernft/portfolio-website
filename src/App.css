@@ -198,6 +198,7 @@ body {
 .portfolio-item{
   align-items: center;
   gap: 2rem;
+  padding-bottom: 1rem;
 }
 .portfolio h3 {
   font-size: 4.2rem;
@@ -423,6 +424,7 @@ outline: none;
 }
 .portfolio-item {
   flex-direction: column;
+  padding-bottom: 1rem;
 }
 .portfolio-item-text {
   width: 100%;
