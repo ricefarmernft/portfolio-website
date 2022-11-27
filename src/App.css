@@ -201,7 +201,7 @@ body {
   padding: 1.8rem 6rem 0 6rem;
 }
 .portfolio-item-text {
-  width: 65%;
+  width: 55%;
   order: 1;
 }
 .portfolio:nth-child(even) .portfolio-item-text {
@@ -215,14 +215,13 @@ body {
   justify-content: flex-end;
 }
 .portfolio-img {
-  width: 35%;
+  width: 45%;
   order: 2;
 }
 .portfolio:nth-child(even) .portfolio-img {
   order: 1;
 }
 .portfolio-img-item {
-  border-radius: 30px;
   max-width: 100%;
   max-height: 100%;
 }
@@ -315,7 +314,7 @@ outline: none;
   cursor: pointer;
   font-size: 2rem;
   padding: 1.2rem;
-  width: 20%;
+  width: 30%;
   border: none;
   border-radius: 30px;
   margin-left: 1.2rem;
@@ -337,6 +336,7 @@ outline: none;
 }
 .sidebar-text a{
   font-size: 1.8rem;
+  border-bottom: none;
 }
 .sidebar-text h2{
   font-size: 3.2rem;
@@ -481,6 +481,7 @@ outline: none;
   }
   .contact-form button {
     margin-left: 12px;
+    width: 40%;
   }
   /* Footer */
   .footer {
