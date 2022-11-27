@@ -389,12 +389,12 @@ outline: none;
     padding: 3rem 2rem;
   }
   .container-title {
-    padding: 1.8rem 3rem 0 3rem;
+    padding: 1.8rem 2rem 0 2rem;
     text-align: center;
   }
   /* Navbar */
-  .footer {
-    padding: 2rem 3rem;
+  .navbar {
+  padding: 2rem 2rem;
   }
   /* Home */
   .home-text p {
@@ -421,6 +421,7 @@ outline: none;
 }
 .portfolio h3 {
   font-size: 3.6rem;
+  padding: 1.8rem 2rem 0 2rem;
 }
 .portfolio-item {
   flex-direction: column;
@@ -511,7 +512,6 @@ outline: none;
   }
   /* Navbar */
   .navbar {
-    padding: 2rem 3rem;
     justify-content: space-between;
   }
   .nav-menu {
@@ -528,5 +528,11 @@ outline: none;
   }
   .home-img-item {
     width: 40rem;
+  }
+}
+
+@media (min-width: 701px) and (max-width: 1000px) {
+  .navbar {
+    padding: 2rem 3rem;
   }
 }
