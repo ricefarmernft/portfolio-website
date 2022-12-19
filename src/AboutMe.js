@@ -12,25 +12,26 @@ export default function AboutMe() {
             I remember being the first one at my elementary school to get a flip
             phone when I was 8 years old. As I showed it off to my friends, more
             and more of them got flip phones and suddenly we were all texting
-            and gaming together. That's when I first understood the power of Network
-            Effects. Since then, I have always been on the cutting edge of
-            technology.
+            and gaming together. That's when I first understood the power of
+            Network Effects. Since then, I have always been on the cutting edge
+            of technology.
           </p>
           <p>
             When I was laid off in August 2022, I seized the moment, opting to
-            rely on my savings to dive headfirst into Front-End Development.
+            rely on my savings to dive headfirst into Front-End Web Development.
           </p>
         </div>
         <div className="about-me-text1">
           <p>
             The ability to create something from an idea in my head was never
             possible for me until I learned Javascript. Coding has given me an
-            entirely new perspective on problem solving and has unlocked an
-            extra creative gear. I am grateful to have taken this opportunity to
-            learn this amazing skill.
+            entirely new way of thinking about problem-solving and has unlocked
+            a new level of creativity for me. I'm grateful for the chance to
+            learn this valuable skill and am excited to continue growing as a
+            developer.
           </p>
           <p>
-            Feel free to check out my{" "}
+            If you're interested in my work, please feel free to check out my{" "}
             <Link
               className="about-me-link"
               to="portfolio"

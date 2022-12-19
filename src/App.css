@@ -41,7 +41,7 @@ body {
   font-size: 3.2rem;
 }
 .link {
-  font-size: 2.4rem;
+  font-size: 2.2rem;
   color: var(--blue-1);
   text-decoration: none;
   border-bottom: 1px solid var(--blue-1);
@@ -115,7 +115,7 @@ body {
 }
 .nav-menu ul {
   justify-content: center;
-  font-size: 1.8rem;
+  font-size: 2rem;
   font-weight: 500;
   list-style: none;
   display: flex;
@@ -152,8 +152,8 @@ body {
 /* Home */
 .home {
   gap: 10rem;
-  padding-top: 10rem;
-  padding-bottom: 10rem;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
 }
 .home-img-item {
   border-radius: 10%;
@@ -173,7 +173,7 @@ body {
 /* About me */
 .about-me {
   justify-content: space-between;
-  font-size: 3.2rem;
+  font-size: 2.8rem;
 }
 .about-me-text {
   width: 45%;
@@ -196,7 +196,7 @@ body {
 /* Portfolio */
 .portfolio {
   justify-content: space-between;
-  font-size: 3.2rem;
+  font-size: 2.8rem;
 }
 .portfolio-item {
   align-items: center;
@@ -236,7 +236,7 @@ body {
 .crypto {
   justify-content: space-between;
   align-items: center;
-  font-size: 3.2rem;
+  font-size: 2.8rem;
 }
 .crypto-text {
   width: 45%;
@@ -264,7 +264,7 @@ body {
 }
 /* Skills */
 .skills {
-  font-size: 2.4rem;
+  font-size: 2rem;
 }
 .skills ul {
   display: flex;

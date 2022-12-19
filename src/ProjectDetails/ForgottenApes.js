@@ -72,6 +72,7 @@ const ForgottenApes = () => {
               <img
                 className="tweet-img"
                 src="https://res.cloudinary.com/dctoezvq5/image/upload/v1671396364/portfolio/project-imgs/taylorwtf-dm_vbhlkt.png"
+                alt="Taylor DM"
               ></img>
             </div>
             <p>
@@ -95,6 +96,7 @@ const ForgottenApes = () => {
                 <img
                   className="tweet-img"
                   src="https://res.cloudinary.com/dctoezvq5/image/upload/v1671397716/portfolio/project-imgs/farokh-tweet_deqrx9.png"
+                  alt="Farokh"
                 ></img>
               </a>
             </div>
@@ -123,6 +125,7 @@ const ForgottenApes = () => {
                 <img
                   className="tweet-img"
                   src="https://res.cloudinary.com/dctoezvq5/image/upload/v1671398090/portfolio/project-imgs/0xmunger-tweet_nmh5k7.png"
+                  alt="0xMunger"
                 ></img>
               </a>
             </div>
@@ -189,6 +192,7 @@ const ForgottenApes = () => {
                 <img
                   className="website-img"
                   src="https://res.cloudinary.com/dctoezvq5/image/upload/v1671399101/portfolio/project-imgs/home-page_pfe62p.png"
+                  alt="Forgotten Apes Home"
                 ></img>
               </a>
             </div>
@@ -212,6 +216,7 @@ const ForgottenApes = () => {
                 <img
                   className="website-img"
                   src="https://res.cloudinary.com/dctoezvq5/image/upload/v1671399457/portfolio/project-imgs/unclaimed-ape-page_ckcejp.png"
+                  alt="Forgotten Apes Unclaimed $APE"
                 ></img>
               </a>
             </div>
@@ -230,6 +235,7 @@ const ForgottenApes = () => {
                 <img
                   className="website-img"
                   src="https://res.cloudinary.com/dctoezvq5/image/upload/v1671400114/portfolio/project-imgs/ape-details-page_tdhtzh.png"
+                  alt="Forgotten Apes Ape 7895"
                 ></img>
               </a>
             </div>
@@ -257,6 +263,7 @@ const ForgottenApes = () => {
                 <img
                   className="website-img"
                   src="https://res.cloudinary.com/dctoezvq5/image/upload/v1671400640/portfolio/project-imgs/lost-apes-table-page_mdjl2c.png"
+                  alt="Forgotten Apes Lost Apes"
                 ></img>
               </a>
             </div>
@@ -299,6 +306,7 @@ const ForgottenApes = () => {
                 <img
                   className="tweet-img"
                   src="https://res.cloudinary.com/dctoezvq5/image/upload/v1671401271/portfolio/project-imgs/ape-tweet_pu2yb7.png"
+                  alt="$APE Airdrop"
                 ></img>
               </a>
             </div>
@@ -333,6 +341,7 @@ const ForgottenApes = () => {
                 <img
                   className="tweet-img"
                   src="https://res.cloudinary.com/dctoezvq5/image/upload/v1671401788/portfolio/project-imgs/bakc-tweet_ztiqdi.png"
+                  alt="BAKC Airdrop"
                 ></img>
               </a>
             </div>
@@ -358,6 +367,7 @@ const ForgottenApes = () => {
                 <img
                   className="tweet-img"
                   src="https://res.cloudinary.com/dctoezvq5/image/upload/v1671402010/portfolio/project-imgs/otherside-tweet_kd7m3a.png"
+                  alt="$APE Airdrop"
                 ></img>
               </a>
             </div>
@@ -466,6 +476,7 @@ const ForgottenApes = () => {
                 <img
                   className="website-img"
                   src="https://res.cloudinary.com/dctoezvq5/image/upload/v1671402716/portfolio/project-imgs/lost-apes-page_d75pqu.png"
+                  alt="Forgotten Apes Lost Apes"
                 ></img>
               </a>
             </div>
