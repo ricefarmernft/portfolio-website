@@ -9,19 +9,28 @@ export default function AboutMe() {
       <div className="container about-me">
         <div className="about-me-text">
           <p>
-            Ceejay Xiong studied Accounting at The Ohio State University. After
-            working as a financial analyst for a national bank and a crypto
-            startup, Ceejay became interested in Web Development. He is
-            currently pursuing front-end programming full-time.
+            I remember being the first one at my elementary school to get a flip
+            phone when I was 8 years old. As I showed it off to my friends, more
+            and more of them got flip phones and suddenly we were all texting
+            and gaming together. That's when I first understood the power of Network
+            Effects. Since then, I have always been on the cutting edge of
+            technology.
+          </p>
+          <p>
+            When I was laid off in August 2022, I seized the moment, opting to
+            rely on my savings to dive headfirst into Front-End Development.
           </p>
         </div>
         <div className="about-me-text1">
           <p>
-            Ceejay is deeply interested in Web 3 and crypto. Outside of work, he
-            enjoys reading, watching movies, and staying active.
+            The ability to create something from an idea in my head was never
+            possible for me until I learned Javascript. Coding has given me an
+            entirely new perspective on problem solving and has unlocked an
+            extra creative gear. I am grateful to have taken this opportunity to
+            learn this amazing skill.
           </p>
           <p>
-            Check out his{" "}
+            Feel free to check out my{" "}
             <Link
               className="about-me-link"
               to="portfolio"
@@ -32,7 +41,7 @@ export default function AboutMe() {
             >
               portfolio
             </Link>{" "}
-            or{" "}
+            and{" "}
             <Link
               className="about-me-link"
               to="contact"
@@ -43,7 +52,7 @@ export default function AboutMe() {
             >
               contact
             </Link>{" "}
-            him for your web development needs.
+            me for your web development needs.
           </p>
         </div>
       </div>

@@ -1,34 +1,30 @@
 import "./App.css";
-import Navbar from "./Navbar.js";
-import Home from "./Home";
-import AboutMe from "./AboutMe";
-import Portfolio from "./Portfolio";
-import { data } from "./data.js";
-import Crypto from "./Crypto";
-import Skills from "./Skills";
-import Contact from "./Contact";
+import Homepage from "./Homepage";
 import Footer from "./Footer";
+import ForgottenApes from "./ProjectDetails/ForgottenApes";
+import OpenseaReimbursement from "./ProjectDetails/OpenseaReimbursement";
+import MovieRatings from "./ProjectDetails/MovieRatings";
+import TargaryenFamilyTree from "./ProjectDetails/TargaryenFamilyTree";
+import { Routes, Route } from "react-router-dom";
 
 function App() {
   return (
     <>
-      <Navbar />
-      <Home />
-      <AboutMe />
-      <div className="container-title">
-        <h1>Portfolio</h1>
-      </div>
-      {data.map((project) => {
-        return (
-          <Portfolio
-            key={project.id}
-            data={project}
-          />
-        );
-      })}
-      <Crypto />
-      <Skills />
-      <Contact />
+      <Routes>
+        <Route exact path="/" element={<Homepage />}></Route>
+        <Route exact path="/project/1" element={<ForgottenApes />}></Route>
+        <Route
+          exact
+          path="/project/2"
+          element={<OpenseaReimbursement />}
+        ></Route>
+        <Route exact path="/project/3" element={<MovieRatings />}></Route>
+        <Route
+          exact
+          path="/project/4"
+          element={<TargaryenFamilyTree />}
+        ></Route>
+      </Routes>
       <Footer />
     </>
   );
