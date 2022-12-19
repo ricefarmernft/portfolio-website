@@ -200,15 +200,15 @@ body {
 }
 .portfolio-item {
   align-items: center;
-  gap: 2rem;
   padding-bottom: 1rem;
+  justify-content: space-between;
 }
 .portfolio h3 {
   font-size: 4.2rem;
   padding: 1.8rem 6rem 0 6rem;
 }
 .portfolio-item-text {
-  width: 55%;
+  width: 45%;
   order: 1;
 }
 .portfolio:nth-child(even) .portfolio-item-text {
