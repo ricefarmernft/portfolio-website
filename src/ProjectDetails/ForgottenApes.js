@@ -1,4 +1,5 @@
 import React from "react";
+import { Tweet } from "react-twitter-widgets";
 import {
   GlobalOutlined,
   GithubFilled,
@@ -86,20 +87,10 @@ const ForgottenApes = () => {
               </a>{" "}
               has also revealed he lost 3 Bored Apes due to a lost seed phrase:
             </p>
-            <div className="project-img">
-              <a
-                href="https://twitter.com/farokh/status/1432122997486366720?s=46&t=N8RPaf6MhC-JxHDZ0-8yow"
-                className="project-link"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <img
-                  className="tweet-img"
-                  src="https://res.cloudinary.com/dctoezvq5/image/upload/v1671397716/portfolio/project-imgs/farokh-tweet_deqrx9.png"
-                  alt="Farokh"
-                ></img>
-              </a>
-            </div>
+            <Tweet
+              tweetId="1432122997486366720"
+              options={{ theme: "dark", align: "center" }}
+            />
             <p>
               And perhaps my biggest inspiration was from{" "}
               <a
@@ -115,20 +106,10 @@ const ForgottenApes = () => {
               if a wallet containing a Punk has had no interactions in 4 years,
               it is considered lost:
             </p>
-            <div className="project-img">
-              <a
-                href="https://twitter.com/0xMunger/status/1597599615737417728?s=20&t=7udngl-s9g9X7fKP_54JFg"
-                className="project-link"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <img
-                  className="tweet-img"
-                  src="https://res.cloudinary.com/dctoezvq5/image/upload/v1671398090/portfolio/project-imgs/0xmunger-tweet_nmh5k7.png"
-                  alt="0xMunger"
-                ></img>
-              </a>
-            </div>
+            <Tweet
+              tweetId="1597599615737417728"
+              options={{ theme: "dark", align: "center" }}
+            />
             <p>
               I wanted to do something similar to @0xMunger’s project, but put
               my own spin on it. Since I do not know Python, I would find a way
@@ -530,6 +511,11 @@ const ForgottenApes = () => {
             </div>
           </div>
         </div>
+      </div>
+      <div className="back-link">
+        <Link className="link back" to="/">
+          <ArrowLeftOutlined /> Back
+        </Link>
       </div>
     </>
   );
