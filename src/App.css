@@ -427,6 +427,9 @@ body {
 .website-img {
   max-width: 750px;
 }
+.project-video {
+  max-width: 750px;
+}
 .project-link {
   color: var(--blue-1);
   text-decoration: none;
@@ -444,6 +447,9 @@ body {
 .project-list ul {
   padding: 1rem;
   list-style-type: none;
+}
+.movie-ratings-list {
+  justify-content: space-around;
 }
 /* Footer */
 .footer {
@@ -634,6 +640,9 @@ body {
   }
   /* Forgotten Apes */
   .website-img {
+    max-width: 100%;
+  }
+  .project-video {
     max-width: 100%;
   }
 }
