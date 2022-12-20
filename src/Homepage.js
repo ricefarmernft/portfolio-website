@@ -12,7 +12,6 @@ import DarkMode from "./DarkMode.js";
 const Homepage = () => {
   return (
     <>
-      <DarkMode />
       <Navbar />
       <Home />
       <AboutMe />

@@ -5,14 +5,15 @@ import {
   ArrowLeftOutlined,
 } from "@ant-design/icons";
 import { Link } from "react-router-dom";
-import DarkMode from "../DarkMode";
 
 const MovieRatings = () => {
+  const handleBackClick = () => {
+    window.scrollTo(0, 2500);
+  };
   return (
     <>
-      <DarkMode />
       <div className="back-link">
-        <Link className="link back" to="/">
+        <Link onClick={handleBackClick} className="link back" to="/">
           <ArrowLeftOutlined /> Back
         </Link>
       </div>
@@ -54,6 +55,11 @@ const MovieRatings = () => {
             </p>
           </div>
         </div>
+      </div>
+      <div className="back-link">
+        <Link onClick={handleBackClick} className="link back" to="/">
+          <ArrowLeftOutlined /> Back
+        </Link>
       </div>
     </>
   );

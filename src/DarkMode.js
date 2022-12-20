@@ -1,21 +1,8 @@
 import React from "react";
-import { useState, useEffect } from "react";
 
-const DarkMode = () => {
-  const [darkMode, setDarkMode] = useState(false);
+const DarkMode = (props) => {
+  const { handleButtonClick } = props;
 
-  const handleButtonClick = () => {
-    setDarkMode(!darkMode);
-    localStorage.setItem("mode", darkMode);
-  };
-
-  useEffect(() => {
-    if (localStorage.getItem("mode") === "false") {
-      document.body.classList.add("dark");
-    } else {
-      document.body.classList.remove("dark");
-    }
-  }, [darkMode]);
   return (
     <div className="dark-mode">
       <button onClick={handleButtonClick}>

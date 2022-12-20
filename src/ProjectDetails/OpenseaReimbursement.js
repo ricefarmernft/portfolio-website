@@ -6,14 +6,15 @@ import {
   ArrowLeftOutlined,
 } from "@ant-design/icons";
 import { Link } from "react-router-dom";
-import DarkMode from "../DarkMode";
 
 const OpenseaReimbursement = () => {
+  const handleBackClick = () => {
+    window.scrollTo(0, 2000);
+  };
   return (
     <>
-      <DarkMode />
       <div className="back-link">
-        <Link className="link back" to="/">
+        <Link onClick={handleBackClick} className="link back" to="/">
           <ArrowLeftOutlined /> Back
         </Link>
       </div>
@@ -61,7 +62,11 @@ const OpenseaReimbursement = () => {
             </p>
             <Tweet
               tweetId="1591218382216404992"
-              options={{ theme: "dark", align: "center" }}
+              options={{
+                theme:
+                  localStorage.getItem("mode") === "false" ? "dark" : "light",
+                align: "center",
+              }}
             />
             <p>
               That weekend I started thinking: How can I make this process
@@ -156,7 +161,11 @@ const OpenseaReimbursement = () => {
             </p>
             <Tweet
               tweetId="1497342530957955073"
-              options={{ theme: "dark", align: "center" }}
+              options={{
+                theme:
+                  localStorage.getItem("mode") === "false" ? "dark" : "light",
+                align: "center",
+              }}
             />
             <p>
               Once I was able to filter all of the necessary failed Opensea
@@ -177,7 +186,11 @@ const OpenseaReimbursement = () => {
             </p>
             <Tweet
               tweetId="1594745256951562250"
-              options={{ theme: "dark", align: "center" }}
+              options={{
+                theme:
+                  localStorage.getItem("mode") === "false" ? "dark" : "light",
+                align: "center",
+              }}
             />
             <p>
               Over 800 likes, 200 retweets, and nearly 100 comments. I was
@@ -189,19 +202,39 @@ const OpenseaReimbursement = () => {
             </p>
             <Tweet
               tweetId="1594855371642114048"
-              options={{ theme: "dark", align: "center" }}
+              options={{
+                theme:
+                  localStorage.getItem("mode") === "false" ? "dark" : "light",
+                align: "center",
+                conversation: "none",
+              }}
             />
             <Tweet
               tweetId="1595744289426149376"
-              options={{ theme: "dark", align: "center" }}
+              options={{
+                theme:
+                  localStorage.getItem("mode") === "false" ? "dark" : "light",
+                align: "center",
+                conversation: "none",
+              }}
             />
             <Tweet
               tweetId="1594831256209960960"
-              options={{ theme: "dark", align: "center" }}
+              options={{
+                theme:
+                  localStorage.getItem("mode") === "false" ? "dark" : "light",
+                align: "center",
+                conversation: "none",
+              }}
             />
             <Tweet
               tweetId="1595317819042050048"
-              options={{ theme: "dark", align: "center" }}
+              options={{
+                theme:
+                  localStorage.getItem("mode") === "false" ? "dark" : "light",
+                align: "center",
+                conversation: "none",
+              }}
             />
             <p>
               The feedback I received was nothing short of incredible. It felt
@@ -217,11 +250,21 @@ const OpenseaReimbursement = () => {
             </p>
             <Tweet
               tweetId="1594746072701747203"
-              options={{ theme: "dark", align: "center" }}
+              options={{
+                theme:
+                  localStorage.getItem("mode") === "false" ? "dark" : "light",
+                align: "center",
+                conversation: "none",
+              }}
             />
             <Tweet
               tweetId="1594763966626013185"
-              options={{ theme: "dark", align: "center" }}
+              options={{
+                theme:
+                  localStorage.getItem("mode") === "false" ? "dark" : "light",
+                align: "center",
+                conversation: "none",
+              }}
             />
             <p>
               Despite the new policy, this app is still useful for active NFT
@@ -237,7 +280,7 @@ const OpenseaReimbursement = () => {
         </div>
       </div>
       <div className="back-link">
-        <Link className="link back" to="/">
+        <Link onClick={handleBackClick} className="link back" to="/">
           <ArrowLeftOutlined /> Back
         </Link>
       </div>

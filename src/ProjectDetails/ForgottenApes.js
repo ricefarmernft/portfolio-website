@@ -6,14 +6,16 @@ import {
   ArrowLeftOutlined,
 } from "@ant-design/icons";
 import { Link } from "react-router-dom";
-import DarkMode from "../DarkMode";
 
 const ForgottenApes = () => {
+  const handleBackClick = () => {
+    window.scrollTo(0, 1350);
+  };
+
   return (
     <>
-      <DarkMode />
       <div className="back-link">
-        <Link className="link back" to="/">
+        <Link onClick={handleBackClick} className="link back" to="/">
           <ArrowLeftOutlined /> Back
         </Link>
       </div>
@@ -89,7 +91,11 @@ const ForgottenApes = () => {
             </p>
             <Tweet
               tweetId="1432122997486366720"
-              options={{ theme: "dark", align: "center" }}
+              options={{
+                theme:
+                  localStorage.getItem("mode") === "false" ? "dark" : "light",
+                align: "center",
+              }}
             />
             <p>
               And perhaps my biggest inspiration was from{" "}
@@ -108,7 +114,11 @@ const ForgottenApes = () => {
             </p>
             <Tweet
               tweetId="1597599615737417728"
-              options={{ theme: "dark", align: "center" }}
+              options={{
+                theme:
+                  localStorage.getItem("mode") === "false" ? "dark" : "light",
+                align: "center",
+              }}
             />
             <p>
               I wanted to do something similar to @0xMunger’s project, but put
@@ -277,20 +287,14 @@ const ForgottenApes = () => {
               coins, currently valued at nearly $40,000 (and valued at over
               $200k at its peak).{" "}
             </p>
-            <div className="project-img">
-              <a
-                href="https://twitter.com/apecoin/status/1504201556165644298?s=46&t=N8RPaf6MhC-JxHDZ0-8yow"
-                className="project-link"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <img
-                  className="tweet-img"
-                  src="https://res.cloudinary.com/dctoezvq5/image/upload/v1671401271/portfolio/project-imgs/ape-tweet_pu2yb7.png"
-                  alt="$APE Airdrop"
-                ></img>
-              </a>
-            </div>
+            <Tweet
+              tweetId="1504201556165644298"
+              options={{
+                theme:
+                  localStorage.getItem("mode") === "false" ? "dark" : "light",
+                align: "center",
+              }}
+            />
             <p>
               Due to my previous experience, I knew I could find this data using
               the Etherscan API. I would need to find the Apecoin Deployer
@@ -312,20 +316,14 @@ const ForgottenApes = () => {
               short. But I knew finding this data would be quite easy since I
               had already written similar functions to find Unclaimed $APE.{" "}
             </p>
-            <div className="project-img">
-              <a
-                href="https://twitter.com/boredapeyc/status/1406008682006069248?s=46&t=n89O6tqfEQMOYZHTis4K5Q"
-                className="project-link"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <img
-                  className="tweet-img"
-                  src="https://res.cloudinary.com/dctoezvq5/image/upload/v1671401788/portfolio/project-imgs/bakc-tweet_ztiqdi.png"
-                  alt="BAKC Airdrop"
-                ></img>
-              </a>
-            </div>
+            <Tweet
+              tweetId="1406008682006069248"
+              options={{
+                theme:
+                  localStorage.getItem("mode") === "false" ? "dark" : "light",
+                align: "center",
+              }}
+            />
             <p>
               Finding this data was identical to finding the Unclaimed $APE coin
               apes. In total, I found that 398 apes did not claim their Bored
@@ -338,20 +336,14 @@ const ForgottenApes = () => {
               claim after the $APE coin airdrop. Being the most recent ape claim
               would give me a lot of insight on the current status of lost apes.
             </p>
-            <div className="project-img">
-              <a
-                href="https://twitter.com/yugalabs/status/1505014986556551172?s=46&t=Faa4cQt7yaDkC30hyQ6V-Q"
-                className="project-link"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <img
-                  className="tweet-img"
-                  src="https://res.cloudinary.com/dctoezvq5/image/upload/v1671402010/portfolio/project-imgs/otherside-tweet_kd7m3a.png"
-                  alt="$APE Airdrop"
-                ></img>
-              </a>
-            </div>
+            <Tweet
+              tweetId="1505014986556551172"
+              options={{
+                theme:
+                  localStorage.getItem("mode") === "false" ? "dark" : "light",
+                align: "center",
+              }}
+            />
             <p>
               Although this was another claim, I could not use my previous
               methods from finding the $APE coin and Dog unclaimed apes. There
@@ -513,7 +505,7 @@ const ForgottenApes = () => {
         </div>
       </div>
       <div className="back-link">
-        <Link className="link back" to="/">
+        <Link onClick={handleBackClick} className="link back" to="/">
           <ArrowLeftOutlined /> Back
         </Link>
       </div>

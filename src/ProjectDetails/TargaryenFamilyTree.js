@@ -8,11 +8,14 @@ import { Link } from "react-router-dom";
 import DarkMode from "../DarkMode";
 
 const TargaryenFamilyTree = () => {
+  const handleBackClick = () => {
+    window.scrollTo(0, 2000);
+  };
   return (
     <>
       <DarkMode />
       <div className="back-link">
-        <Link className="link back" to="/">
+        <Link onClick={handleBackClick} className="link back" to="/">
           <ArrowLeftOutlined /> Back
         </Link>
       </div>
@@ -54,6 +57,11 @@ const TargaryenFamilyTree = () => {
             </p>
           </div>
         </div>
+      </div>
+      <div className="back-link">
+        <Link onClick={handleBackClick} className="link back" to="/">
+          <ArrowLeftOutlined /> Back
+        </Link>
       </div>
     </>
   );
