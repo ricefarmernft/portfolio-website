@@ -495,12 +495,122 @@ const ForgottenApes = () => {
               the active ethereum addresses from the 75 apes. This eliminated 7
               apes. In total, 68 apes satisfied all 3 criteria.
             </p>
-            <div className="project-question">
-              <h2>
+            <p>
+              <strong>
                 I finally had the answer to my question. 68 apes are lost
                 forever.
-              </h2>
-            </div>
+              </strong>
+            </p>
+            <h2>Testimonials</h2>
+            <p>
+              Finally, after a few weeks of heads down coding, I was ready to
+              share my project with the world! I was extremely proud of this
+              project in particular because I had to learn so many new
+              technologies like React Router, React Redux, and Ant Design. I
+              also had to find creative solutions to hard problems as well.
+              Extracting data from the blockchain is not very fast, so I worked
+              hard to minimize the amount of APIs calls and promises. Narrowing
+              down my criteria for lost apes also took a lot of thinking and
+              experimenting. But that's really what coding is all about, finding
+              creative solutions to problems that no one has encountered before!
+            </p>
+            <Tweet
+              tweetId="1604876453127942144"
+              options={{
+                theme:
+                  localStorage.getItem("mode") === "false" ? "dark" : "light",
+                align: "center",
+              }}
+            />
+            <p>
+              My project got a lot of engagement, especially from the BAYC
+              community! With over 250 likes, 40 retweets, and 50 comments! Here
+              are some of my favorite responses on the project:
+            </p>
+
+            <Tweet
+              tweetId="1604904425759248384"
+              options={{
+                theme:
+                  localStorage.getItem("mode") === "false" ? "dark" : "light",
+                align: "center",
+                conversation: "none",
+              }}
+            />
+            <Tweet
+              tweetId="1604922664925003776"
+              options={{
+                theme:
+                  localStorage.getItem("mode") === "false" ? "dark" : "light",
+                align: "center",
+                conversation: "none",
+              }}
+            />
+            <Tweet
+              tweetId="1604887593811734528"
+              options={{
+                theme:
+                  localStorage.getItem("mode") === "false" ? "dark" : "light",
+                align: "center",
+                conversation: "none",
+              }}
+            />
+            <Tweet
+              tweetId="1604906756508995585"
+              options={{
+                theme:
+                  localStorage.getItem("mode") === "false" ? "dark" : "light",
+                align: "center",
+                conversation: "none",
+              }}
+            />
+            <p>
+              There were a few people who actually knew the backstory behind a
+              few of the lost apes too. That was super interesting to learn and
+              read about!
+            </p>
+            <Tweet
+              tweetId="1604890994360856576"
+              options={{
+                theme:
+                  localStorage.getItem("mode") === "false" ? "dark" : "light",
+                align: "center",
+                conversation: "none",
+              }}
+            />
+            <Tweet
+              tweetId="1604902535537430528"
+              options={{
+                theme:
+                  localStorage.getItem("mode") === "false" ? "dark" : "light",
+                align: "center",
+                conversation: "none",
+              }}
+            />
+            <p>
+              And lastly, Kevin, the CEO of Dust Labs / DeGods said some
+              encouraging words about the project.
+            </p>
+            <Tweet
+              tweetId="1605085681927172096"
+              options={{
+                theme:
+                  localStorage.getItem("mode") === "false" ? "dark" : "light",
+                align: "center",
+                conversation: "none",
+              }}
+            />
+            <p>
+              Sharing my projects with the world and gathering feedback has been
+              instrumental to my growth as a web developer. I'm so happy to
+              contribute to a community I feel so strongly about in a fun and
+              creative way. It really gives me the confidence to keep learning
+              and building.
+            </p>
+            <p>
+              I'm so proud of what I have created and can't wait to get to work
+              on my next project!
+            </p>
           </div>
         </div>
       </div>
