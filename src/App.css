@@ -423,12 +423,15 @@ body {
 }
 .tweet-img {
   max-width: 500px;
+  box-shadow: 0px 3px 5px var(--black-1);
 }
 .website-img {
   max-width: 750px;
+  box-shadow: 0px 3px 5px var(--black-1);
 }
 .project-video {
   max-width: 750px;
+  box-shadow: 0px 3px 5px var(--black-1);
 }
 .project-link {
   color: var(--blue-1);
