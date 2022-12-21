@@ -39,7 +39,7 @@ const TargaryenFamilyTree = () => {
         </a>
       </div>
 
-      <div className="container project movie-ratings">
+      {/* <div className="container project movie-ratings">
         <div className="project-text-container">
           <div className="project-text">
             <h2>Inspiration</h2>
@@ -57,7 +57,7 @@ const TargaryenFamilyTree = () => {
             </p>
           </div>
         </div>
-      </div>
+      </div> */}
       <div className="back-link">
         <Link onClick={handleBackClick} className="link back" to="/">
           <ArrowLeftOutlined /> Back
