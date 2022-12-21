@@ -7,7 +7,7 @@ export const data = [
     image:
       "https://res.cloudinary.com/dctoezvq5/image/upload/v1671318266/portfolio/computer-forgotten-apes_sww6wy.png",
     alt: "Forgotten Apes",
-    href: "https://crypto-ecommerce-site.vercel.app/",
+    href: "https://www.forgottenapes.xyz/",
   },
   {
     id: 2,
@@ -17,7 +17,7 @@ export const data = [
     image:
       "https://res.cloudinary.com/dctoezvq5/image/upload/v1669576048/portfolio/opensea-image_l1uuaa.png",
     alt: "Opensea Reimbursement",
-    href: "https://opensea-failed-transactions.vercel.app/",
+    href: "https://www.osrefund.app/",
   },
   {
     id: 3,

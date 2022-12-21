@@ -30,7 +30,7 @@ const OpenseaReimbursement = () => {
           <GlobalOutlined />
         </a>
         <a
-          href="https://www.osrefund.app/"
+          href="https://github.com/ricefarmernft/opensea-reimbursement"
           target="_blank"
           rel="noreferrer"
         >
