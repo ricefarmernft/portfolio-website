@@ -60,7 +60,7 @@ const MovieRatings = () => {
             </p>
             <div className="project-img">
               <a
-                href="https://images.app.goo.gl/jexBEgUe2VNkcz8Y8"
+                href="https://www.nytimes.com/2020/10/05/movies/the-social-network-facebook.html"
                 className="project-link"
                 target="_blank"
                 rel="noreferrer"

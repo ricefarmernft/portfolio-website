@@ -7,9 +7,9 @@ export default function Crypto() {
       <div className="container crypto">
         <div className="crypto-text">
           <p>
-            I am extremely passionate about Crypto and everything related to Web
+            I am extremely passionate about crypto and everything related to web
             3. Since I discovered Bitcoin in 2016, I have been fascinated with
-            Blockchain technology and impressed with the growth of the industry.
+            blockchain technology and impressed with the growth of the industry.
             I have experience working with blockchain data, DeFi, smart
             contracts, and NFTs. On{" "}
             <a
