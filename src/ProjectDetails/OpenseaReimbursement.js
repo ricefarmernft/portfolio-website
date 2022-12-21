@@ -23,14 +23,14 @@ const OpenseaReimbursement = () => {
       </div>
       <div className="project-logos">
         <a
-          href="https://opensea-failed-transactions.vercel.app/"
+          href="https://www.osrefund.app/"
           target="_blank"
           rel="noreferrer"
         >
           <GlobalOutlined />
         </a>
         <a
-          href="https://github.com/ricefarmernft/opensea-failed-transactions"
+          href="https://www.osrefund.app/"
           target="_blank"
           rel="noreferrer"
         >
@@ -119,7 +119,7 @@ const OpenseaReimbursement = () => {
             </p>
             <div className="project-img">
               <a
-                href="https://opensea-failed-transactions.vercel.app/"
+                href="https://www.osrefund.app/"
                 className="project-link"
                 target="_blank"
                 rel="noreferrer"
