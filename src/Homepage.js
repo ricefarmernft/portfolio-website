@@ -7,7 +7,6 @@ import { data } from "./data.js";
 import Crypto from "./Crypto";
 import Skills from "./Skills";
 import Contact from "./Contact";
-import DarkMode from "./DarkMode.js";
 
 const Homepage = () => {
   return (
