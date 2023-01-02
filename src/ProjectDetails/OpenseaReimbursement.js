@@ -1,10 +1,6 @@
 import React from "react";
 import { Tweet } from "react-twitter-widgets";
-import {
-  GlobalOutlined,
-  GithubFilled,
-  ArrowLeftOutlined,
-} from "@ant-design/icons";
+import { ArrowLeftOutlined } from "@ant-design/icons";
 import { Link } from "react-router-dom";
 
 const OpenseaReimbursement = () => {
@@ -22,19 +18,15 @@ const OpenseaReimbursement = () => {
         <h1>Opensea Reimbursement</h1>
       </div>
       <div className="project-logos">
-        <a
-          href="https://www.osrefund.app/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <GlobalOutlined />
+        <a href="https://www.osrefund.app/" target="_blank" rel="noreferrer">
+          Website
         </a>
         <a
           href="https://github.com/ricefarmernft/opensea-reimbursement"
           target="_blank"
           rel="noreferrer"
         >
-          <GithubFilled />
+          Github
         </a>
       </div>
 

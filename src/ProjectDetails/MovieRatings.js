@@ -1,9 +1,5 @@
 import React from "react";
-import {
-  GlobalOutlined,
-  GithubFilled,
-  ArrowLeftOutlined,
-} from "@ant-design/icons";
+import { ArrowLeftOutlined } from "@ant-design/icons";
 import { Link } from "react-router-dom";
 
 const MovieRatings = () => {
@@ -26,14 +22,14 @@ const MovieRatings = () => {
           target="_blank"
           rel="noreferrer"
         >
-          <GlobalOutlined />
+          Website
         </a>
         <a
           href="https://github.com/ricefarmernft/Movie-Tracker"
           target="_blank"
           rel="noreferrer"
         >
-          <GithubFilled />
+          Github
         </a>
       </div>
 

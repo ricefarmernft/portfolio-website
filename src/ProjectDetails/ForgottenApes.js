@@ -1,10 +1,6 @@
 import React from "react";
 import { Tweet } from "react-twitter-widgets";
-import {
-  GlobalOutlined,
-  GithubFilled,
-  ArrowLeftOutlined,
-} from "@ant-design/icons";
+import { ArrowLeftOutlined } from "@ant-design/icons";
 import { Link } from "react-router-dom";
 
 const ForgottenApes = () => {
@@ -28,14 +24,14 @@ const ForgottenApes = () => {
           target="_blank"
           rel="noreferrer"
         >
-          <GlobalOutlined />
+          Website
         </a>
         <a
           href="https://github.com/ricefarmernft/forgotten-apes"
           target="_blank"
           rel="noreferrer"
         >
-          <GithubFilled />
+          Github
         </a>
       </div>
       <div className="container project forgotten-apes">
@@ -121,12 +117,20 @@ const ForgottenApes = () => {
               }}
             />
             <p>
-              I wanted to do something similar to @0xMunger’s project, but put
-              my own spin on it. Since I do not know Python, I would find a way
-              to use Javascript to find the amount of lost apes and host the
-              data on a website with a clean UI. This way, anybody could easily
-              understand the data points and it could automatically update as
-              more apes are lost.
+              I wanted to do something similar to{" "}
+              <a
+                href="https://twitter.com/0xMunger"
+                className="project-link"
+                target="_blank"
+                rel="noreferrer"
+              >
+                @0xMunger's
+              </a>{" "}
+              project, but put my own spin on it. Since I do not know Python, I
+              would find a way to use Javascript to find the amount of lost apes
+              and host the data on a website with a clean UI. This way, anybody
+              could easily understand the data points and it could automatically
+              update as more apes are lost.
             </p>
             <div className="list">
               <div className="project-list">
