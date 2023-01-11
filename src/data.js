@@ -3,7 +3,7 @@ export const data = [
     id: 1,
     title: "Forgotten Apes",
     description:
-      "How many Bored Apes are lost forever? This is my attempt at finding that number by interpreting Blockchain data and displaying it in an easy to read and simple User Interface.",
+      "How many Bored Apes are lost forever? This is my attempt at finding that number by analyzing Blockchain data and displaying it in an easy to read and simple User Interface.",
     image:
       "https://res.cloudinary.com/dctoezvq5/image/upload/v1671318266/portfolio/computer-forgotten-apes_sww6wy.png",
     alt: "Forgotten Apes",

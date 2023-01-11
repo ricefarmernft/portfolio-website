@@ -9,16 +9,15 @@ export default function AboutMe() {
       <div className="container about-me">
         <div className="about-me-text">
           <p>
-            I remember being the first one at my elementary school to get a flip
-            phone when I was 8 years old. As I showed it off to my friends, more
-            and more of them got flip phones and suddenly we were all texting
-            and gaming together. That's when I first understood the power of
-            Network Effects. Since then, I have always been on the cutting edge
-            of technology.
+            When I turned 8 years old, I remember getting a flip phone and being
+            the first kid at school to have one. As I showed it off to my
+            friends, more and more of them got flip phones and suddenly we were
+            all texting and gaming together. That's when I first understood the
+            power of Network Effects. Since then, I have always been on the
+            cutting edge of technology.
           </p>
           <p>
-            When I was laid off in August 2022, I seized the moment, opting to
-            rely on my savings to dive headfirst into Front-End Web Development.
+            When I was laid off in August 2022, I decided to dive headfirst into Front-End Web Development.
           </p>
         </div>
         <div className="about-me-text1">
