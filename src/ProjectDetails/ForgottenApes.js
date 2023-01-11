@@ -592,7 +592,7 @@ const ForgottenApes = () => {
               }}
             />
             <p>
-              And lastly, Kevin, the CEO of Dust Labs / DeGods said some
+              Kevin, the CEO of Dust Labs / DeGods has also said some
               encouraging words about the project.
             </p>
             <Tweet
@@ -605,6 +605,21 @@ const ForgottenApes = () => {
               }}
             />
             <p>
+              And to take it a step further, I've started researching the
+              indiviudal Lost Apes as an attempt to find the owners and
+              understand how they became lost. While most investigations
+              eventually run dry, there have been a couple successful outcomes.
+              <Tweet
+                tweetId="1610055213410385920"
+                options={{
+                  theme:
+                    localStorage.getItem("mode") === "false" ? "dark" : "light",
+                  align: "center",
+                  conversation: "none",
+                }}
+              />
+            </p>
+            <p>
               Sharing my projects with the world and gathering feedback has been
               instrumental to my growth as a web developer. I'm so happy to
               contribute to a community I feel so strongly about in a fun and
@@ -612,8 +627,8 @@ const ForgottenApes = () => {
               and building.
             </p>
             <p>
-              I'm so proud of what I have created and can't wait to get to work
-              on my next project!
+              I'm so proud of what I have created and look forward to tracking
+              more Apes that become lost over time!
             </p>
           </div>
         </div>

@@ -7,12 +7,11 @@ export default function Home() {
             className="home-img-item"
             src="https://res.cloudinary.com/dctoezvq5/image/upload/v1668189625/portfolio/IMG_7717_t2nnb7.jpg"
             alt="Ceejay Xiong"
-            // width="300"
           ></img>
         </div>
         <div className="home-text">
-          <span>Hello!</span>
-          <p>I'm Ceejay, a Web Developer based in Chicago.</p>
+          <span className="home-text-hello">Hello!</span>
+          <p>I'm <span className="home-text-name">Ceejay</span>, a Web Developer based in Chicago.</p>
         </div>
       </div>
     </>

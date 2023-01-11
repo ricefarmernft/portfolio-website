@@ -11,11 +11,6 @@ export default function Navbar() {
             src="https://ipfs.io/ipfs/QmQ6VgRFiVTdKbiebxGvhW3Wa3Lkhpe6SkWBPjGnPkTttS/7895.png"
             alt="Bored Ape"
           ></img>
-          <div className="nav-title">
-            <h1>
-              Ceejay <br /> Xiong
-            </h1>
-          </div>
         </div>
 
         <div className="nav-menu">

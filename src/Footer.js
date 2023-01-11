@@ -5,7 +5,7 @@ export default function Footer() {
         <div className="footer-blank"></div>
         <div className="footer-text">
           <p>
-            <strong>&#169; 2022 Ceejay Xiong</strong>
+            <strong>&#169; 2023 Ceejay Xiong</strong>
           </p>
           <p>All Rights Reserved</p>
         </div>
