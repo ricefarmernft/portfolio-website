@@ -5,7 +5,7 @@ import {
   ArrowLeftOutlined,
 } from "@ant-design/icons";
 import { Link } from "react-router-dom";
-import DarkMode from "../DarkMode";
+import DarkMode from "../HomepageComponents/DarkMode";
 
 const TargaryenFamilyTree = () => {
   const handleBackClick = () => {

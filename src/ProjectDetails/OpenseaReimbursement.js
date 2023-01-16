@@ -15,7 +15,7 @@ const OpenseaReimbursement = () => {
         </Link>
       </div>
       <div className="project-title" id="forgotten-apes">
-        <h1>Opensea Reimbursement</h1>
+        <h1>Opensea Refund</h1>
       </div>
       <div className="project-logos">
         <a href="https://www.osrefund.app/" target="_blank" rel="noreferrer">
@@ -81,23 +81,25 @@ const OpenseaReimbursement = () => {
                 <h2>Dependencies</h2>
                 <ul>
                   <li>React</li>
-                  <li>React HTML Table to XLS</li>
+                  <li>Ant Design</li>
+                  <li>web3.js</li>
                 </ul>
               </div>
               <div className="project-list">
                 <h2>APIs</h2>
                 <ul>
                   <li>Etherscan API</li>
+                  <li>Alchemy API</li>
                 </ul>
               </div>
             </div>
             <h2>Styling</h2>
             <p>
-              I kept the styling extremely simple due to time constraint and the
-              practicality I wanted for the app. There would be an input for the
-              Ethereum address to check, a balance checker, and a table to
-              showcase all of your transactions. Also, I added a dark mode
-              option.
+              Initially, I kept the styling extremely simple due to time
+              constraint and the practicality I wanted for the app. There would
+              be an input for the Ethereum address to check, a balance checker,
+              and a table to showcase all of your transactions. Also, I added a
+              dark mode option.
             </p>
             <h2>Vision</h2>
             <p>
@@ -106,8 +108,8 @@ const OpenseaReimbursement = () => {
               by simply inputting your Ethereum address. I wanted to display it
               in a simple table with the date, transaction hash, gas fee, and
               etherscan link. I also wanted to clearly display the total Opensea
-              reimbursement amount as well as an option to export the table to
-              an Excel sheet.
+              refund amount as well as an option to export the table to an Excel
+              sheet.
             </p>
             <div className="project-img">
               <a
@@ -119,7 +121,7 @@ const OpenseaReimbursement = () => {
                 <img
                   className="website-img"
                   src="https://res.cloudinary.com/dctoezvq5/image/upload/v1671503176/portfolio/project-imgs/opensea-reimbursement_n8dn65.png"
-                  alt="Opensea Reimbursement"
+                  alt="Opensea Refund"
                 ></img>
               </a>
             </div>
@@ -267,6 +269,68 @@ const OpenseaReimbursement = () => {
             <p>
               Sometimes, you don't need to be an incredible coder to create a
               popular app. You just need to seize the moment 🙂
+            </p>
+            <h2>Update (1/15/2023)</h2>
+            <p>
+              Over the weekend, I decided to revisit this project and add more
+              functionality to it that I wasn't able to before due to both a
+              time constraint and inability. I also wanted to completely revamp
+              the styling and create a more aesthetically pleasing website and a
+              better UI / UX for the user.
+            </p>
+            <p>Here is what I came up with:</p>
+            <div className="project-img">
+              <a
+                href="https://www.osrefund.app/"
+                className="project-link"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  className="website-img"
+                  src="https://res.cloudinary.com/dctoezvq5/image/upload/v1673835093/portfolio/os-refund-final_yl75hx.png"
+                  alt="Opensea Refund Final"
+                ></img>
+              </a>
+            </div>
+            <p>
+              I decided to scrap the light and dark theme and instead create a
+              wavy background using the Haikei app. I thought this was
+              appropriate as a nod to 'Opensea'. I revamped to an aqua and pink
+              color theme and also reduced the font weights to create a more
+              minimalistic look. Instructions were added to the top as well as
+              direct links to the Opensea Help Center. For the transaction
+              table, I removed the 'Link' column and instead added the etherscan
+              links to the 'Tx Hash' data. I also made the table transparent and
+              added a box shadow to make it pop out more.
+            </p>
+            <p>
+              In terms of functionality, I added ENS support through web3.js to
+              make it easier to get your refund amount instead of using your
+              Ethereum address. I also added a 'Sort 30 Days' button to adhere
+              to the new Opensea policy of only allowing refunds within 30 days.
+              This would make it easier for frequent users to quickly check if
+              they are eligible for any more refunds. I added a simple Loader
+              that shows up when you input an Ethereum Address or a .eth ENS so
+              you know that the table is generating. Lastly, I decided to remove
+              the export to XLS button due to the fear of malware and increasing
+              download scams. Instead, I replaced it with a 'Copy Table' button
+              which will neatly copy your Table to the clipboard. From here, you
+              can paste it in Excel or forward it to the Opensea Help Center. I
+              figured this would be safer than downloading an actual file.
+            </p>
+            <p>
+              Overall, I'm extremely pleased with the updates. The site looks a
+              lot cleaner and simpler to use. Key functionality was added to
+              improve the user experience. This is definitely an site that I am
+              extremely proud of.
+            </p>
+            <p>
+              An important takeaway from this update is that no project is truly
+              complete. As you learn more and more, you should revisit your old
+              projects and update them up to your new skill level. This was a
+              fun weekend activity and I look forward to revisiting this project
+              again to see what else I can add!
             </p>
           </div>
         </div>
