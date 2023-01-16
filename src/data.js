@@ -11,12 +11,12 @@ export const data = [
   },
   {
     id: 2,
-    title: "Opensea Reimbursement",
+    title: "Opensea Refund",
     description:
       "Opensea has a policy where you are able to receive refunds for failed gas transactions. This app filters your failed Opensea transactions into a neat table that you can forward to their help center for a reimbursement.",
     image:
-      "https://res.cloudinary.com/dctoezvq5/image/upload/v1669576048/portfolio/opensea-image_l1uuaa.png",
-    alt: "Opensea Reimbursement",
+      "https://res.cloudinary.com/dctoezvq5/image/upload/v1673834445/portfolio/computer-os-refund_oprl73.png",
+    alt: "Opensea Refund",
     href: "https://www.osrefund.app/",
   },
   {

@@ -1,12 +1,12 @@
 import React from "react";
-import Navbar from "./Navbar.js";
-import Home from "./Home";
-import AboutMe from "./AboutMe";
-import Portfolio from "./Portfolio";
+import Navbar from "./HomepageComponents/Navbar.js";
+import Home from "./HomepageComponents/Home";
+import AboutMe from "./HomepageComponents/AboutMe";
+import Portfolio from "./HomepageComponents/Portfolio";
 import { data } from "./data.js";
-import Crypto from "./Crypto";
-import Skills from "./Skills";
-import Contact from "./Contact";
+import Crypto from "./HomepageComponents/Crypto";
+import Skills from "./HomepageComponents/Skills";
+import Contact from "./HomepageComponents/Contact";
 
 const Homepage = () => {
   return (
