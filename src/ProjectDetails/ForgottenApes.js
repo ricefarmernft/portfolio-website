@@ -44,7 +44,7 @@ const ForgottenApes = () => {
             <p>
               The inspiration for this project came from a variety of places.
               The idea of lost NFT assets is not a new one. Cryptopunks, a 4
-              year old NFT project is perhaps most famous for having many lost
+              year old NFT project, is perhaps most famous for having many lost
               assets. Being one of the oldest NFT projects certainly means that
               some of these assets would be lost throughout the years, whether
               it be through lost private keys, death of the owner, or any
@@ -128,9 +128,9 @@ const ForgottenApes = () => {
               </a>{" "}
               project, but put my own spin on it. Since I do not know Python, I
               would find a way to use Javascript to find the amount of lost apes
-              and host the data on a website with a clean UI. This way, anybody
-              could easily understand the data points and it could automatically
-              update as more apes are lost.
+              and display the data on a website with a clean UI. This way,
+              anybody could easily understand the data points and it could
+              automatically update as more apes are lost.
             </p>
             <div className="list">
               <div className="project-list">
@@ -413,9 +413,9 @@ const ForgottenApes = () => {
               for the last minted ape to find the ape holders at sellout, and I
               would use the latest block to dynamically find the up to date list
               of ape holders. Then, I could compare the two arrays and if the
-              address and ape ID matched, then I can reasonably assume that ape
-              has never been “transferred”. Although this isn’t a perfect way to
-              find this data, it was the best I could come up with. Some
+              address and ape ID matched, I could reasonably assume that that
+              ape has never been “transferred”. Although this isn’t a perfect
+              way to find this data, it was the best I could come up with. Some
               limitations include:
             </p>
             <div className="project-list">
