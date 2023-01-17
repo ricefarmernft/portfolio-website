@@ -17,6 +17,7 @@ Dependencies:
 - React Scroll
 - React Twitter Widgets
 - email.js
+- React Google Analytics 4
 
 Apps:
 - Cloudinary

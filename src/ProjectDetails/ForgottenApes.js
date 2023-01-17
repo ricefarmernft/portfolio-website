@@ -531,7 +531,6 @@ const ForgottenApes = () => {
               community! With over 250 likes, 40 retweets, and 50 comments! Here
               are some of my favorite responses on the project:
             </p>
-
             <Tweet
               tweetId="1604904425759248384"
               options={{
@@ -609,16 +608,16 @@ const ForgottenApes = () => {
               indiviudal Lost Apes as an attempt to find the owners and
               understand how they became lost. While most investigations
               eventually run dry, there have been a couple successful outcomes.
-              <Tweet
-                tweetId="1610055213410385920"
-                options={{
-                  theme:
-                    localStorage.getItem("mode") === "false" ? "dark" : "light",
-                  align: "center",
-                  conversation: "none",
-                }}
-              />
             </p>
+            <Tweet
+              tweetId="1610055213410385920"
+              options={{
+                theme:
+                  localStorage.getItem("mode") === "false" ? "dark" : "light",
+                align: "center",
+                conversation: "none",
+              }}
+            />
             <p>
               Sharing my projects with the world and gathering feedback has been
               instrumental to my growth as a web developer. I'm so happy to

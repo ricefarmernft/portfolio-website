@@ -5,18 +5,30 @@ import Footer from "./HomepageComponents/Footer";
 import ForgottenApes from "./ProjectDetails/ForgottenApes";
 import OpenseaReimbursement from "./ProjectDetails/OpenseaReimbursement";
 import MovieRatings from "./ProjectDetails/MovieRatings";
-import TargaryenFamilyTree from "./ProjectDetails/TargaryenFamilyTree";
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, useLocation } from "react-router-dom";
 import DarkMode from "./HomepageComponents/DarkMode";
+import ReactGA from "react-ga4";
+
+const googleApi = `${process.env.REACT_APP_GOOGLE_ANALYTICS_KEY}`;
+ReactGA.initialize(googleApi);
 
 function App() {
   const [darkMode, setDarkMode] = useState(false);
 
+  const location = useLocation();
+
+  // Google Analytics
+  useEffect(() => {
+    ReactGA.send("pageview", location.pathname);
+  }, [location]);
+
+  // Dark mode toggle
   const handleButtonClick = () => {
     setDarkMode(!darkMode);
     localStorage.setItem("mode", darkMode);
   };
 
+  // Set dark mode
   useEffect(() => {
     if (localStorage.getItem("mode") === "false") {
       document.body.classList.add("dark");
@@ -34,14 +46,9 @@ function App() {
         <Route
           exact
           path="/project/2"
-          element={<OpenseaReimbursement darkMode={darkMode} />}
+          element={<OpenseaReimbursement />}
         ></Route>
         <Route exact path="/project/3" element={<MovieRatings />}></Route>
-        <Route
-          exact
-          path="/project/4"
-          element={<TargaryenFamilyTree />}
-        ></Route>
       </Routes>
       <Footer />
     </>
