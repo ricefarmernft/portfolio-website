@@ -8,7 +8,7 @@ export default function Navbar() {
         <div className="nav-logo">
           <img
             className="nav-logo-item"
-            src="https://ipfs.io/ipfs/QmQ6VgRFiVTdKbiebxGvhW3Wa3Lkhpe6SkWBPjGnPkTttS/7895.png"
+            src="https://res.cloudinary.com/dctoezvq5/image/upload/v1678892657/portfolio/project-imgs/BAYC_7895_hjgugx.png"
             alt="Bored Ape"
           ></img>
         </div>

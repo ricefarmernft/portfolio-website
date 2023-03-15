@@ -9,25 +9,28 @@ export default function AboutMe() {
       <div className="container about-me">
         <div className="about-me-text">
           <p>
-            When I turned 8 years old, I remember getting a flip phone and being
-            the first kid at school to have one. As I showed it off to my
-            friends, more and more of them got flip phones and suddenly we were
-            all texting and gaming together. That's when I first understood the
-            power of Network Effects. Since then, I have always been on the
-            cutting edge of technology.
-          </p>
-          <p>
-            When I was laid off in August 2022, I decided to dive headfirst into Front-End Web Development.
+            As a web developer, I excel in crafting captivating websites using
+            React, Javascript, and CSS. In particular, my passion for Web 3
+            inspires me to build blockchain and crypto applications. When I'm
+            not programming, I enjoy playing poker, immersing myself in the
+            imaginative realm of anime, and sharing my thoughts and creations on{" "}
+            <a
+              className="crypto-link"
+              href="https://twitter.com/RiceFarmerNFT"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Twitter
+            </a>
+            .
           </p>
         </div>
         <div className="about-me-text1">
           <p>
-            The ability to create something from an idea in my head was never
-            possible for me until I learned Javascript. Coding has given me an
-            entirely new way of thinking about problem-solving and has unlocked
-            a new level of creativity for me. I'm grateful for the chance to
-            learn this valuable skill and am excited to continue growing as a
-            developer.
+            Coding has opened up a whole new world of problem-solving for me,
+            unleashing a wave of creativity I never knew I had. I'm eager to
+            continue growing and improving as a front-end developer in this
+            exciting field.
           </p>
           <p>
             If you're interested in my work, please feel free to check out my{" "}
@@ -52,7 +55,7 @@ export default function AboutMe() {
             >
               contact
             </Link>{" "}
-            me for your web development needs.
+            me for your development needs.
           </p>
         </div>
       </div>

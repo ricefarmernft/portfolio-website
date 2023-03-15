@@ -10,8 +10,8 @@ export default function Crypto() {
             I am extremely passionate about crypto and everything related to web
             3. Since I discovered Bitcoin in 2016, I have been fascinated with
             blockchain technology and impressed with the growth of the industry.
-            I have experience working with blockchain data, DeFi, smart
-            contracts, and NFTs. On{" "}
+            I have experience working with blockchain data, smart contracts, and
+            NFTs. On{" "}
             <a
               className="crypto-link"
               href="https://twitter.com/RiceFarmerNFT"
@@ -20,7 +20,7 @@ export default function Crypto() {
             >
               Twitter
             </a>
-            , I am a content creator and have amassed over 23k+ followers.
+            , I am a content creator and have amassed over 24k+ followers.
           </p>
         </div>
         <div className="crypto-img">

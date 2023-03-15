@@ -11,7 +11,10 @@ export default function Home() {
         </div>
         <div className="home-text">
           <span className="home-text-hello">Hello!</span>
-          <p>I'm <span className="home-text-name">Ceejay</span>, a Web Developer based in Chicago.</p>
+          <p>
+            I'm <span className="home-text-name">Ceejay</span>, a Software
+            Engineer based in Chicago.
+          </p>
         </div>
       </div>
     </>
