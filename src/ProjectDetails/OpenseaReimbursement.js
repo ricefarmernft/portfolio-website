@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 const OpenseaReimbursement = () => {
   const handleBackClick = () => {
-    window.scrollTo(0, 2000);
+    window.scrollTo(0, 2500);
   };
   return (
     <>

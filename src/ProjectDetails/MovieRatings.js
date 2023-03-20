@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const MovieRatings = () => {
   const handleBackClick = () => {
-    window.scrollTo(0, 2550);
+    window.scrollTo(0, 2500);
   };
   return (
     <>

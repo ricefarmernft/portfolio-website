@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 
 export default function Portfolio(props) {
-  const { title, description, image, alt, href, id } = props.data;
+  const { title, description, image, alt, href, id, link } = props.data;
 
   const handleClick = () => {
     window.scrollTo(0, 0);
@@ -22,7 +22,7 @@ export default function Portfolio(props) {
           </div>
         </div>
         <div className="portfolio-link">
-          <Link className="link" onClick={handleClick} to={`/project/${id}`}>
+          <Link className="link" onClick={handleClick} to={`/${link}`}>
             View Project
           </Link>
         </div>
