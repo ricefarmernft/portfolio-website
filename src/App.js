@@ -9,13 +9,14 @@ import Icebreakers from "./ProjectDetails/Icebreakers";
 import { Routes, Route, useLocation } from "react-router-dom";
 import DarkMode from "./HomepageComponents/DarkMode";
 import ReactGA from "react-ga4";
-import { data } from "./data";
 
 const googleApi = `${process.env.REACT_APP_GOOGLE_ANALYTICS_KEY}`;
 ReactGA.initialize(googleApi);
 
 function App() {
-  const [darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = useState(
+    localStorage.getItem("ricefarmerMode") || false
+  );
 
   const location = useLocation();
 
@@ -26,20 +27,19 @@ function App() {
 
   // Dark mode toggle
   const handleButtonClick = () => {
+    console.log(darkMode, !darkMode);
     setDarkMode(!darkMode);
-    localStorage.setItem("mode", darkMode);
+    localStorage.setItem("ricefarmerMode", !darkMode);
   };
 
   // Set dark mode
   useEffect(() => {
-    if (localStorage.getItem("mode") === "false") {
+    if (localStorage.getItem("ricefarmerMode") === "false") {
       document.body.classList.add("dark");
     } else {
       document.body.classList.remove("dark");
     }
   }, [darkMode]);
-
-  console.log(data);
 
   return (
     <>

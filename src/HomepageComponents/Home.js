@@ -5,7 +5,7 @@ export default function Home() {
         <div className="home-img">
           <img
             className="home-img-item"
-            src="https://res.cloudinary.com/dctoezvq5/image/upload/v1668189625/portfolio/IMG_7717_t2nnb7.jpg"
+            src="https://res.cloudinary.com/dctoezvq5/image/upload/v1682612116/portfolio/IMG_7765_tbp1zp.jpg"
             alt="Ceejay Xiong"
           ></img>
         </div>

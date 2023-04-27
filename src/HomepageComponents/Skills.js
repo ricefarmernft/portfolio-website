@@ -8,20 +8,20 @@ export default function Skills() {
         <ul>
           <li>React</li>
           <li>Javascript</li>
-          <li>Node</li>
-          <li>HTML</li>
+          <li>Node.js</li>
+          <li>Ethers.js</li>
+          <li>OpenAi</li>
           <li>CSS</li>
+          <li>HTML</li>
           <li>Git</li>
           <li>Photoshop</li>
           <li>Firebase</li>
+          <li>Postman</li>
           <li>Crypto</li>
           <li>Blockchain</li>
           <li>DeFi</li>
           <li>NFTs</li>
           <li>Social Media</li>
-          <li>Marketing</li>
-          <li>Journalism</li>
-          <li>Content</li>
         </ul>
       </div>
     </>
