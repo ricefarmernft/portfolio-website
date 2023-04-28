@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 const ForgottenApes = () => {
   const handleBackClick = () => {
-    window.scrollTo(0, 1850);
+    window.scrollTo(0, 2400);
   };
 
   return (

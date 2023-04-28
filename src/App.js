@@ -6,6 +6,7 @@ import ForgottenApes from "./ProjectDetails/ForgottenApes";
 import OpenseaReimbursement from "./ProjectDetails/OpenseaReimbursement";
 import MovieRatings from "./ProjectDetails/MovieRatings";
 import Icebreakers from "./ProjectDetails/Icebreakers";
+import OpenAsk from "./ProjectDetails/OpenAsk";
 import { Routes, Route, useLocation } from "react-router-dom";
 import DarkMode from "./HomepageComponents/DarkMode";
 import ReactGA from "react-ga4";
@@ -47,6 +48,7 @@ function App() {
       <Routes>
         <Route exact path="/" element={<Homepage />}></Route>
         <Route exact path="/icebreakers" element={<Icebreakers />}></Route>
+        <Route exact path="/openask" element={<OpenAsk />}></Route>
         <Route exact path="/forgotten-apes" element={<ForgottenApes />}></Route>
         <Route
           exact

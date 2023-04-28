@@ -9,7 +9,7 @@ export default function Portfolio(props) {
 
   return (
     <>
-      <div className="portfolio" id="portfolio">
+      <div className="portfolio" id={link}>
         <h3>{title}</h3>
         <div className="container portfolio-item">
           <div className="portfolio-item-text">

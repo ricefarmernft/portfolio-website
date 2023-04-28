@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const Icebreakers = () => {
   const handleBackClick = () => {
-    window.scrollTo(0, 1250);
+    window.scrollTo(0, 1850);
   };
   return (
     <>
@@ -29,7 +29,7 @@ const Icebreakers = () => {
         </a> */}
       </div>
 
-      <div className="container project movie-ratings">
+      <div className="container project icebreakers">
         <div className="project-text-container">
           <div className="project-text">
             <h2>Inspiration</h2>
