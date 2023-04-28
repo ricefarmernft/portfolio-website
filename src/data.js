@@ -4,7 +4,7 @@ export const data = [
     link: "openask",
     title: "OpenAsk (Alpha)",
     description:
-      "Imagine having direct access to the minds of industry leaders and influencers - OpenAsk makes this a reality. By attaching a bounty in USD or Crypto to their inquiries, users can tap into expert knowledge while demonstrating their earnest desire for connection. OpenAsk filters out the noise for experts, creating a beneficial exchange of insights and rewards.",
+      "Imagine having direct access to the minds of industry leaders and influencers - OpenAsk makes this a reality. By attaching a bounty in USD or Crypto to their questions, users can tap into expert knowledge while demonstrating their earnest desire for connection. OpenAsk filters out the noise for experts, creating a beneficial exchange of insights and rewards.",
     image:
       "https://res.cloudinary.com/dctoezvq5/image/upload/v1682709636/portfolio/computer-openask_kn0ul7.png",
     alt: "OpenAsk",
@@ -15,7 +15,7 @@ export const data = [
     link: "icebreakers",
     title: "Icebreakers",
     description:
-      "Got a hot match but stuck on the first message? Meet icebreakers! This nifty tool whips up personalized pickup lines using your match's name, gender, and a fun fact from their profile. Now you can slide into those DMs with confidence and start building meaningful connections in a snap!",
+      "Got a hot match but stuck on the first message? Meet icebreakers! This nifty tool utilizes OpenAI to whip up personalized pickup lines using your match's name, gender, and a fun fact from their profile. Now you can slide into those DMs with confidence and start building meaningful connections in a snap!",
     image:
       "https://res.cloudinary.com/dctoezvq5/image/upload/v1679269462/portfolio/icebreakers/computer-icebreakers-bg_o6a1gm.png",
     alt: "Icebreakers",
