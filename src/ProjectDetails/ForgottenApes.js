@@ -38,6 +38,20 @@ const ForgottenApes = () => {
         <div className="project-question">
           <h2>How many Bored Apes are lost forever?</h2>
         </div>
+        <div className="project-img">
+          <a
+            href="https://www.forgottenapes.xyz/"
+            className="project-link"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img
+              className="website-img"
+              src="https://res.cloudinary.com/dctoezvq5/image/upload/v1671399101/portfolio/project-imgs/home-page_pfe62p.png"
+              alt="Forgotten Apes Home"
+            ></img>
+          </a>
+        </div>
         <div className="project-text-container">
           <div className="project-text">
             <h2>Inspiration</h2>
@@ -628,6 +642,33 @@ const ForgottenApes = () => {
             <p>
               I'm so proud of what I have created and look forward to tracking
               more Apes that become lost over time!
+            </p>
+            <h2>Update (1/20/2023)</h2>
+            <div className="project-img">
+              <a
+                href="https://www.forgottenapes.xyz/unclaimed-sewer"
+                className="project-link"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  className="website-img"
+                  src="https://res.cloudinary.com/dctoezvq5/image/upload/v1682879957/portfolio/project-imgs/unclaimed-sewer_iv4psy.jpg"
+                  alt="Forgotten Apes Unclaimed Sewer Apes"
+                ></img>
+              </a>
+            </div>
+            <p>
+              I've added tabs for Unclaimed Sewer apes and Unclaimed Sewer
+              (BAKC) dogs. These tabs represent apes that have not claimed their
+              sewer pass and dogs that have not been used to claim a sewer pass
+              respectively. It was important to update this project in real time
+              in order to help prospecting buyers make informed decisions when
+              purchasing an ape or dog.
+            </p>
+            <p>
+              I plan to continue updating Forgotten Apes as more claims become
+              available for holders!
             </p>
           </div>
         </div>

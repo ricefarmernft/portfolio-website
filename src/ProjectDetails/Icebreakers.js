@@ -128,18 +128,11 @@ const Icebreakers = () => {
               inspiration from to come up with your own!
             </p>
             <div className="project-img">
-              <a
-                href="https://www.icebreakers.dev/"
-                className="project-link"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <img
-                  className="website-img"
-                  src="https://res.cloudinary.com/dctoezvq5/image/upload/v1679271608/portfolio/icebreakers/icebreakers-filled_j4aaab.png"
-                  alt="Icebreakers Website"
-                ></img>
-              </a>
+              <img
+                className="website-img"
+                src="https://res.cloudinary.com/dctoezvq5/image/upload/v1679271608/portfolio/icebreakers/icebreakers-filled_j4aaab.png"
+                alt="Icebreakers Website"
+              ></img>
             </div>
             <p>
               Utilizing the Open AI API was a very fun and creative process.
@@ -254,6 +247,28 @@ const Icebreakers = () => {
             <p>
               Disclaimer: This app is only intended for the initial icebreaker.
               The steps after that are out of my scope 😂
+            </p>
+            <h2>Update (4/30/2023)</h2>
+            <div className="project-img">
+              <img
+                className="website-img"
+                src="https://res.cloudinary.com/dctoezvq5/image/upload/v1682880337/portfolio/icebreakers/icebreakers-generate-similar_pl1rtq.jpg"
+                alt="Icebreakers Generate Similar"
+              ></img>
+            </div>
+            <p>Icebreakers has been updated to use the GPT4 API!</p>
+            <p>
+              At first glance, the results are much better and more unique. The
+              generations tend to be longer and address the fun fact more
+              directly. I still think it is best to use this tool as an idea
+              generator and then modify it slightluy to your personality, as the
+              responses can sometimes sound "AI generated".
+            </p>
+            <p>
+              I also added a new feature where you can generate more icebreakers
+              based on a previous icebreaker. This is useful if you like the
+              style of a particular icebreaker and want to generate more like
+              it! Good luck!
             </p>
           </div>
         </div>

@@ -29,6 +29,13 @@ const OpenseaReimbursement = () => {
           Github
         </a>
       </div>
+      <div className="project-img">
+        <img
+          className="website-img"
+          src="https://res.cloudinary.com/dctoezvq5/image/upload/v1682880586/portfolio/project-imgs/os-refund-landing_yoy4go.png"
+          alt="Opensea Refund Landing Page"
+        ></img>
+      </div>
 
       <div className="container project movie-ratings">
         <div className="project-text-container">

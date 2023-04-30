@@ -9,11 +9,13 @@ export default function AboutMe() {
       <div className="container about-me">
         <div className="about-me-text">
           <p>
-            Coding has opened up a whole new world of problem-solving for me,
-            unleashing a wave of creativity I never knew I had. As a web
-            developer, I excel in crafting captivating websites using React,
-            Javascript, and CSS. In particular, my passion for Web 3 inspires me
-            to build blockchain and crypto applications.
+            I'm not just another coder, I bring websites to life with React,
+            Javascript, and CSS. But that's not all. I've also taken the
+            rollercoaster ride of entrepreneurship, navigating the high-octane
+            startup world to breathe life into brilliant ideas. What really
+            lights my fire, though? It's Web 3 and AI. I'm on a mission to shape
+            the future by developing cutting-edge blockchain and machine
+            learning applications.
           </p>
         </div>
         <div className="about-me-text1">

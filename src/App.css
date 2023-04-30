@@ -106,7 +106,7 @@ body {
 }
 .nav-logo-item {
   border-radius: 10%;
-  width: 10rem;
+  width: 8rem;
   height: auto;
 }
 .nav-menu {
@@ -176,20 +176,21 @@ body {
 /* About me */
 .about-me {
   justify-content: space-between;
+  gap: 2.5rem;
   font-size: 2.8rem;
 }
 .about-me-text {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  width: 45%;
   gap: 15px;
+  flex: 1;
 }
 .about-me-text1 {
   display: flex;
   flex-direction: column;
-  width: 45%;
   gap: 15px;
+  flex: 1;
 }
 .about-me-link {
   color: var(--blue-1);
@@ -531,6 +532,9 @@ body {
   .navbar {
     padding: 2rem 2rem;
   }
+  .nav-logo-item {
+    width: 5rem;
+  }
   /* Home */
   .home-text p {
     font-size: 5.4rem;
@@ -679,5 +683,8 @@ body {
 @media (min-width: 701px) and (max-width: 1000px) {
   .navbar {
     padding: 2rem 3rem;
+  }
+  .nav-logo-item {
+    width: 7.5rem;
   }
 }
