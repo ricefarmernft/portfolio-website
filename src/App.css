@@ -70,8 +70,7 @@ body {
 .dark-mode {
   position: fixed;
   right: 0;
-  padding-top: 10px;
-  padding-right: 10px;
+  padding: 5px;
 }
 .dark-mode svg {
   fill: var(--black-1);
@@ -83,8 +82,8 @@ body {
   cursor: pointer;
 }
 .dark-mode-icon {
-  width: 3.2rem;
-  height: 3.2rem;
+  width: 2.4rem;
+  height: 2.4rem;
   fill: var(--black-1);
   cursor: pointer;
   transition: fill 0.4s;
