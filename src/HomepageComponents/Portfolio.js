@@ -23,7 +23,7 @@ export default function Portfolio(props) {
         </div>
         <div className="portfolio-link">
           <Link className="link" onClick={handleClick} to={`/${link}`}>
-            View Project
+            Read More
           </Link>
         </div>
       </div>
