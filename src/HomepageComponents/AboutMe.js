@@ -9,8 +9,8 @@ export default function AboutMe() {
       <div className="container about-me">
         <div className="about-me-text">
           <p>
-            I'm not just another coder, I bring websites to life with React,
-            Javascript, and CSS. But that's not all. I've also taken the
+            I'm not just another coder, I bring websites to life with Next.js,
+            React, and Tailwind CSS. But that's not all. I've also taken the
             rollercoaster ride of entrepreneurship, navigating the high-octane
             startup world to breathe life into brilliant ideas. What really
             lights my fire, though? It's Web 3 and AI. I'm on a mission to shape
@@ -20,9 +20,16 @@ export default function AboutMe() {
         </div>
         <div className="about-me-text1">
           <p>
-            When I'm not programming, I enjoy playing poker, immersing myself in
-            the imaginative realm of anime, and sharing my thoughts and
-            creations on{" "}
+            When I'm not programming, I enjoy watching movies, playing{" "}
+            <a
+              className="crypto-link"
+              href="https://www.youtube.com/channel/UCc7HfjGvO7KtBotlmcVoLIA"
+              target="_blank"
+              rel="noreferrer"
+            >
+              volleyball
+            </a>{" "}
+            at the beach, and sharing my thoughts and creations on{" "}
             <a
               className="crypto-link"
               href="https://twitter.com/RiceFarmerNFT"
