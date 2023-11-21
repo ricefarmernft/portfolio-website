@@ -20,7 +20,7 @@ export default function Crypto() {
             >
               Twitter
             </a>
-            , I am a content creator and have amassed over 24k+ followers.
+            , I am a content creator and have amassed over 25k+ followers.
           </p>
         </div>
         <div className="crypto-img">
